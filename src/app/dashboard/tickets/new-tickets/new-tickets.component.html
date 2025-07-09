@@ -1,16 +1,14 @@
 <form action="">
-  <p>
-    <app-controls label="Title"></app-controls>
+  <app-controls class="control" label="Title">
     <input type="text" name="title" id="title" />
-  </p>
-  <p>
-    <label for="request">Request</label>
+  </app-controls>
+
+  <app-controls class="control" label="Request">
     <textarea name="request" id="request" rows="3"></textarea>
-  </p>
+  </app-controls>
   <p>
     <button appButton>
       submit
-
       <span class="icon">></span>
     </button>
   </p>
